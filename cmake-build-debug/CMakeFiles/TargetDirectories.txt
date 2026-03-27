@@ -1,0 +1,3 @@
+C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/cmake-build-debug/CMakeFiles/Praktikum2.dir
+C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
