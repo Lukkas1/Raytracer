@@ -1,8 +1,9 @@
 #include "SimpleRayTracer.h"
 
 #include <atomic>
-
 #include "rgbimage.h"
+#include "CGUtilities.h"
+
 #include <stdio.h>
 #include <math.h>
 
@@ -41,25 +42,52 @@ Vector Camera::Position() const
 }
 
 SimpleRayTracer::SimpleRayTracer(unsigned int MaxDepth)
-{
-	// TODO: Add your code
-}
+	: maxDepth(MaxDepth) {}
 
 
 void SimpleRayTracer::traceScene( const Scene& SceneModel, RGBImage& Image)
 {
-	// TODO: Add your code
+	//Kamera aus Vorgabe
+	Camera camera = Camera(-8, 1, 1, 0.75, 640, 480);
+	Vector o = camera.Position();
+
+	for (int x = 0; x < Image.width(); x++)
+	{
+		for (int y = 0; y < Image.height(); y++)
+		{
+			/* Für jeden Pixel
+			 * 1. Setze Farbe F für Pixel (x,y) auf Schwarz;
+			 * 2. Berechne Strahl s von Augpunkt zu Pixel;
+			 * 3. F = Raytracing(s); // Rekursion
+			 */
+			Image.setPixelColor(x, y, Color(0, 0, 0));
+			Vector d = camera.generateRay(x, y);
+			Color f = trace(SceneModel, o, d, maxDepth);
+			Image.setPixelColor(x, y, f);
+		}
+	}
 }
 
+/// Nur Difuse-Komponente des Materials
 Color SimpleRayTracer::localIllumination( const Vector& Surface, const Vector& Eye, const Vector& N, const PointLight& Light, const Material& Mtrl )
 {
-	// TODO: Add your code
-	return Color(); // dummy (remove)
+	return Material.getDiffuseCoeff(SurfacePoint);
 }
 
+/**
+ * @param SceneModel
+ * @param o Origin/Augpunkt: Startpunkt des Strahls
+ * @param d Direction/Strahlrichtung
+ * @param depth verbleibende Rekursionstiefe
+ * @return
+ */
 Color SimpleRayTracer::trace( const Scene& SceneModel, const Vector& o, const Vector& d, int depth)
 {
-	// TODO: Add your code
-	return Color(); // dummy (remove)
+	if (depth == 0) return Color();
+	depth--;
+
+
+
+	trace(SceneModel, o, d, depth);
 }
 

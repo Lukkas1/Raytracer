@@ -36,7 +36,9 @@ public:
     void traceScene( const Scene& SceneModel, RGBImage& Image);
 protected:
     Color trace( const Scene& SceneModel, const Vector& o, const Vector& d, int depth);
-    Color localIllumination( const Vector& SurfacePoint, const Vector& Eye, const Vector& Normal, const PointLight& Light, const Material& Material );    
+    Color localIllumination( const Vector& SurfacePoint, const Vector& Eye, const Vector& Normal, const PointLight& Light, const Material& Material );
+private:
+    unsigned int maxDepth;
 };
 
 
