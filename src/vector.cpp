@@ -128,7 +128,7 @@ bool Vector::triangleIntersection( const Vector& d, const Vector& a, const Vecto
 
 	// s = (a-o)*n / d*n
 	float nenner = n.dot(d);
-	if (nenner == 0) return false;
+	if (fabs(nenner) < 0.0001f) return false;
 
 	//Formel für a aus Folie:  s = d-n*o / d*n
 	//Meine verwendete Formel: s = (a-o)*n / d*n
