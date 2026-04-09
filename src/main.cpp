@@ -5,10 +5,10 @@
 
 
 int main(int argc, const char * argv[]) {
-    Scene scene(0);
+    Scene scene(20);
     RGBImage image(640,480);
     SimpleRayTracer tracer(2);
     tracer.traceScene(scene, image);
-    image.saveToDisk("raytracing_image.bmp");
+    image.saveToDisk("Prakt2aufg4.bmp");
     return 0;
 }
