@@ -68,24 +68,10 @@ include CMakeFiles/Praktikum2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Praktikum2.dir/flags.make
 
-CMakeFiles/Praktikum2.dir/src/main.cpp.obj: CMakeFiles/Praktikum2.dir/flags.make
-CMakeFiles/Praktikum2.dir/src/main.cpp.obj: C:/Users/oooch/My\ Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/main.cpp
-CMakeFiles/Praktikum2.dir/src/main.cpp.obj: CMakeFiles/Praktikum2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Praktikum2.dir/src/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Praktikum2.dir/src/main.cpp.obj -MF CMakeFiles\Praktikum2.dir\src\main.cpp.obj.d -o CMakeFiles\Praktikum2.dir\src\main.cpp.obj -c "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\main.cpp"
-
-CMakeFiles/Praktikum2.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Praktikum2.dir/src/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\main.cpp" > CMakeFiles\Praktikum2.dir\src\main.cpp.i
-
-CMakeFiles/Praktikum2.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Praktikum2.dir/src/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\main.cpp" -o CMakeFiles\Praktikum2.dir\src\main.cpp.s
-
 CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj: CMakeFiles/Praktikum2.dir/flags.make
 CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj: C:/Users/oooch/My\ Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/SimpleRayTracer.cpp
 CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj: CMakeFiles/Praktikum2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj -MF CMakeFiles\Praktikum2.dir\src\SimpleRayTracer.cpp.obj.d -o CMakeFiles\Praktikum2.dir\src\SimpleRayTracer.cpp.obj -c "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\SimpleRayTracer.cpp"
 
 CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.i: cmake_force
@@ -96,21 +82,99 @@ CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\SimpleRayTracer.cpp" -o CMakeFiles\Praktikum2.dir\src\SimpleRayTracer.cpp.s
 
+CMakeFiles/Praktikum2.dir/src/vector.cpp.obj: CMakeFiles/Praktikum2.dir/flags.make
+CMakeFiles/Praktikum2.dir/src/vector.cpp.obj: C:/Users/oooch/My\ Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/vector.cpp
+CMakeFiles/Praktikum2.dir/src/vector.cpp.obj: CMakeFiles/Praktikum2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Praktikum2.dir/src/vector.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Praktikum2.dir/src/vector.cpp.obj -MF CMakeFiles\Praktikum2.dir\src\vector.cpp.obj.d -o CMakeFiles\Praktikum2.dir\src\vector.cpp.obj -c "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\vector.cpp"
+
+CMakeFiles/Praktikum2.dir/src/vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Praktikum2.dir/src/vector.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\vector.cpp" > CMakeFiles\Praktikum2.dir\src\vector.cpp.i
+
+CMakeFiles/Praktikum2.dir/src/vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Praktikum2.dir/src/vector.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\vector.cpp" -o CMakeFiles\Praktikum2.dir\src\vector.cpp.s
+
+CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj: CMakeFiles/Praktikum2.dir/flags.make
+CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj: C:/Users/oooch/My\ Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/rgbimage.cpp
+CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj: CMakeFiles/Praktikum2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj -MF CMakeFiles\Praktikum2.dir\src\rgbimage.cpp.obj.d -o CMakeFiles\Praktikum2.dir\src\rgbimage.cpp.obj -c "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\rgbimage.cpp"
+
+CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\rgbimage.cpp" > CMakeFiles\Praktikum2.dir\src\rgbimage.cpp.i
+
+CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\rgbimage.cpp" -o CMakeFiles\Praktikum2.dir\src\rgbimage.cpp.s
+
+CMakeFiles/Praktikum2.dir/src/color.cpp.obj: CMakeFiles/Praktikum2.dir/flags.make
+CMakeFiles/Praktikum2.dir/src/color.cpp.obj: C:/Users/oooch/My\ Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/color.cpp
+CMakeFiles/Praktikum2.dir/src/color.cpp.obj: CMakeFiles/Praktikum2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Praktikum2.dir/src/color.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Praktikum2.dir/src/color.cpp.obj -MF CMakeFiles\Praktikum2.dir\src\color.cpp.obj.d -o CMakeFiles\Praktikum2.dir\src\color.cpp.obj -c "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\color.cpp"
+
+CMakeFiles/Praktikum2.dir/src/color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Praktikum2.dir/src/color.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\color.cpp" > CMakeFiles\Praktikum2.dir\src\color.cpp.i
+
+CMakeFiles/Praktikum2.dir/src/color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Praktikum2.dir/src/color.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\color.cpp" -o CMakeFiles\Praktikum2.dir\src\color.cpp.s
+
+CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj: CMakeFiles/Praktikum2.dir/flags.make
+CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj: C:/Users/oooch/My\ Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/CGUtilities.cpp
+CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj: CMakeFiles/Praktikum2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj -MF CMakeFiles\Praktikum2.dir\src\CGUtilities.cpp.obj.d -o CMakeFiles\Praktikum2.dir\src\CGUtilities.cpp.obj -c "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\CGUtilities.cpp"
+
+CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\CGUtilities.cpp" > CMakeFiles\Praktikum2.dir\src\CGUtilities.cpp.i
+
+CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\CGUtilities.cpp" -o CMakeFiles\Praktikum2.dir\src\CGUtilities.cpp.s
+
+CMakeFiles/Praktikum2.dir/src/main.cpp.obj: CMakeFiles/Praktikum2.dir/flags.make
+CMakeFiles/Praktikum2.dir/src/main.cpp.obj: C:/Users/oooch/My\ Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/main.cpp
+CMakeFiles/Praktikum2.dir/src/main.cpp.obj: CMakeFiles/Praktikum2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Praktikum2.dir/src/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Praktikum2.dir/src/main.cpp.obj -MF CMakeFiles\Praktikum2.dir\src\main.cpp.obj.d -o CMakeFiles\Praktikum2.dir\src\main.cpp.obj -c "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\main.cpp"
+
+CMakeFiles/Praktikum2.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Praktikum2.dir/src/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\main.cpp" > CMakeFiles\Praktikum2.dir\src\main.cpp.i
+
+CMakeFiles/Praktikum2.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Praktikum2.dir/src/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\src\main.cpp" -o CMakeFiles\Praktikum2.dir\src\main.cpp.s
+
 # Object files for target Praktikum2
 Praktikum2_OBJECTS = \
-"CMakeFiles/Praktikum2.dir/src/main.cpp.obj" \
-"CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj"
+"CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj" \
+"CMakeFiles/Praktikum2.dir/src/vector.cpp.obj" \
+"CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj" \
+"CMakeFiles/Praktikum2.dir/src/color.cpp.obj" \
+"CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj" \
+"CMakeFiles/Praktikum2.dir/src/main.cpp.obj"
 
 # External object files for target Praktikum2
 Praktikum2_EXTERNAL_OBJECTS =
 
-Praktikum2.exe: CMakeFiles/Praktikum2.dir/src/main.cpp.obj
 Praktikum2.exe: CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj
+Praktikum2.exe: CMakeFiles/Praktikum2.dir/src/vector.cpp.obj
+Praktikum2.exe: CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj
+Praktikum2.exe: CMakeFiles/Praktikum2.dir/src/color.cpp.obj
+Praktikum2.exe: CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj
+Praktikum2.exe: CMakeFiles/Praktikum2.dir/src/main.cpp.obj
 Praktikum2.exe: CMakeFiles/Praktikum2.dir/build.make
 Praktikum2.exe: CMakeFiles/Praktikum2.dir/linkLibs.rsp
 Praktikum2.exe: CMakeFiles/Praktikum2.dir/objects1.rsp
 Praktikum2.exe: CMakeFiles/Praktikum2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Praktikum2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\oooch\My Drive\02_Studium\4_Semester\Computergrafik\Praktikum\Raytracer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Praktikum2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Praktikum2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/CGUtilities.cpp" "CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj" "gcc" "CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj.d"
   "C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/SimpleRayTracer.cpp" "CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj" "gcc" "CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.obj.d"
+  "C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/color.cpp" "CMakeFiles/Praktikum2.dir/src/color.cpp.obj" "gcc" "CMakeFiles/Praktikum2.dir/src/color.cpp.obj.d"
   "C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/main.cpp" "CMakeFiles/Praktikum2.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Praktikum2.dir/src/main.cpp.obj.d"
+  "C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/rgbimage.cpp" "CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj" "gcc" "CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj.d"
+  "C:/Users/oooch/My Drive/02_Studium/4_Semester/Computergrafik/Praktikum/Raytracer/src/vector.cpp" "CMakeFiles/Praktikum2.dir/src/vector.cpp.obj" "gcc" "CMakeFiles/Praktikum2.dir/src/vector.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

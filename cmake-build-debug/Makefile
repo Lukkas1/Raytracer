@@ -128,6 +128,30 @@ Praktikum2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/build
 .PHONY : Praktikum2/fast
 
+src/CGUtilities.obj: src/CGUtilities.cpp.obj
+.PHONY : src/CGUtilities.obj
+
+# target to build an object file
+src/CGUtilities.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.obj
+.PHONY : src/CGUtilities.cpp.obj
+
+src/CGUtilities.i: src/CGUtilities.cpp.i
+.PHONY : src/CGUtilities.i
+
+# target to preprocess a source file
+src/CGUtilities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.i
+.PHONY : src/CGUtilities.cpp.i
+
+src/CGUtilities.s: src/CGUtilities.cpp.s
+.PHONY : src/CGUtilities.s
+
+# target to generate assembly for a file
+src/CGUtilities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/CGUtilities.cpp.s
+.PHONY : src/CGUtilities.cpp.s
+
 src/SimpleRayTracer.obj: src/SimpleRayTracer.cpp.obj
 .PHONY : src/SimpleRayTracer.obj
 
@@ -151,6 +175,30 @@ src/SimpleRayTracer.s: src/SimpleRayTracer.cpp.s
 src/SimpleRayTracer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/SimpleRayTracer.cpp.s
 .PHONY : src/SimpleRayTracer.cpp.s
+
+src/color.obj: src/color.cpp.obj
+.PHONY : src/color.obj
+
+# target to build an object file
+src/color.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/color.cpp.obj
+.PHONY : src/color.cpp.obj
+
+src/color.i: src/color.cpp.i
+.PHONY : src/color.i
+
+# target to preprocess a source file
+src/color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/color.cpp.i
+.PHONY : src/color.cpp.i
+
+src/color.s: src/color.cpp.s
+.PHONY : src/color.s
+
+# target to generate assembly for a file
+src/color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/color.cpp.s
+.PHONY : src/color.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -176,6 +224,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/rgbimage.obj: src/rgbimage.cpp.obj
+.PHONY : src/rgbimage.obj
+
+# target to build an object file
+src/rgbimage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.obj
+.PHONY : src/rgbimage.cpp.obj
+
+src/rgbimage.i: src/rgbimage.cpp.i
+.PHONY : src/rgbimage.i
+
+# target to preprocess a source file
+src/rgbimage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.i
+.PHONY : src/rgbimage.cpp.i
+
+src/rgbimage.s: src/rgbimage.cpp.s
+.PHONY : src/rgbimage.s
+
+# target to generate assembly for a file
+src/rgbimage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/rgbimage.cpp.s
+.PHONY : src/rgbimage.cpp.s
+
+src/vector.obj: src/vector.cpp.obj
+.PHONY : src/vector.obj
+
+# target to build an object file
+src/vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/vector.cpp.obj
+.PHONY : src/vector.cpp.obj
+
+src/vector.i: src/vector.cpp.i
+.PHONY : src/vector.i
+
+# target to preprocess a source file
+src/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/vector.cpp.i
+.PHONY : src/vector.cpp.i
+
+src/vector.s: src/vector.cpp.s
+.PHONY : src/vector.s
+
+# target to generate assembly for a file
+src/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum2.dir\build.make CMakeFiles/Praktikum2.dir/src/vector.cpp.s
+.PHONY : src/vector.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Praktikum2
+	@echo ... src/CGUtilities.obj
+	@echo ... src/CGUtilities.i
+	@echo ... src/CGUtilities.s
 	@echo ... src/SimpleRayTracer.obj
 	@echo ... src/SimpleRayTracer.i
 	@echo ... src/SimpleRayTracer.s
+	@echo ... src/color.obj
+	@echo ... src/color.i
+	@echo ... src/color.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/rgbimage.obj
+	@echo ... src/rgbimage.i
+	@echo ... src/rgbimage.s
+	@echo ... src/vector.obj
+	@echo ... src/vector.i
+	@echo ... src/vector.s
 .PHONY : help
 
 

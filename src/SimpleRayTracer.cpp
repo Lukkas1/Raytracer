@@ -103,6 +103,7 @@ Color SimpleRayTracer::localIllumination( const Vector& Surface, const Vector& E
 {
 	Color totalColor(0, 0, 0);
 
+
 	// Vektor zur Lichtquelle (L)
 	Vector L = Light.Position - Surface;
 	L.normalize();
@@ -110,7 +111,7 @@ Color SimpleRayTracer::localIllumination( const Vector& Surface, const Vector& E
 	// Ambiente Komponente (Vorlesung 3, S. 20) wird in trace() als Grundfarbe verwendet
 
 	// Diffuse Komponente (Vorlesung 3, S. 17)
-	// N * L aus Folie. max() für wenn die Lichtquelle hinter Dreieck dann Skalarprodukt negativ dann schwärzer als schwarz also bei 0 abschneiden
+	// N * L aus Folie.
 	totalColor += Light.Intensity * Mtrl.getDiffuseCoeff(Surface) * N.dot(L);
 
 	// Spekulare Komponente (Phong) (Vorlesung 3, S. 18)
@@ -119,7 +120,13 @@ Color SimpleRayTracer::localIllumination( const Vector& Surface, const Vector& E
 	Vector R = N * (2.0f * N.dot(L)) - L;
 	R.normalize();
 
-	float specularFactor = pow(Eye.dot(R), Mtrl.getSpecularExp(Surface));
+	//Halbvektor für Blinn berechnen
+	//H=1/2(E*L)
+	Vector H = (Eye + L);
+	H.normalize();
+
+	//float specularFactor = pow(Eye.dot(R), Mtrl.getSpecularExp(Surface));
+	float specularFactor = pow(N.dot(H), Mtrl.getSpecularExp(Surface));
 	totalColor += Light.Intensity * Mtrl.getSpecularCoeff(Surface) * specularFactor;
 
 	return totalColor;
@@ -170,7 +177,21 @@ Color SimpleRayTracer::trace( const Scene& SceneModel, const Vector& o, const Ve
 
     // Wenn nichts getroffen wurde
     if (closest_triangle_idx == -1) {
-        return Color(0, 0, 0);
+    	// Perspektivische Projektion auf eine flache 2D-Ebene
+    	// Teilen durch Z um Prespektive loszuwerden
+    	float u = d.X / d.Z;
+    	float v = d.Y / d.Z;
+
+    	// Bild in Raster aufteilen
+    	int raster_x = (int)std::floor(u * 14.0f);
+    	int raster_y = (int)std::floor(v * 14.0f);
+
+    	// Schachbrettmusterlogik
+    	if ((raster_x + raster_y) % 2 == 0) {
+    		return Color(1, 1, 1);
+    	} else {
+    		return Color(1, 0, 1);
+    	}
     }
 
     // Auftreffpunkt und Normale bestimmen
@@ -195,7 +216,7 @@ Color SimpleRayTracer::trace( const Scene& SceneModel, const Vector& o, const Ve
 
         // Schattenstrahl gegen alle Dreiecke testen
         for (unsigned int j = 0; j < SceneModel.getTriangleCount(); ++j) {
-            // Ursprungsdreieck beim Kollisionstest ausschließen [cite: 138]
+            // Ursprungsdreieck beim Kollisionstest ausschließen
             if (j == closest_triangle_idx) continue;
 
             const Triangle& shadow_tri = SceneModel.getTriangle(j);
